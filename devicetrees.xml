@@ -2,15 +2,15 @@
 <manifest>
     <!-- Remote sources -->
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
-    <remote name="thecapibara"		fetch="https://github.com/thecapibara"		revision="evo-15" />
+    <remote name="thecapibara"		fetch="https://github.com/thecapibara"		revision="mist-os" />
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
     <remote name="tomoms"                  fetch="https://github.com/Tomoms"              revision="v" />
 
     <!-- Device trees -->
-    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="los" />
-    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="los" />
-    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="los" />
-    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="thecapibara" />
+    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="thecapibara" />
+    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="thecapibara" />
+    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="thecapibara" />
+    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="lineage-22.2" />
 
     <!-- Vendor trees -->
     <project name="proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="muppets" />
