@@ -5,6 +5,7 @@
     <remote name="thecapibara"		fetch="https://github.com/thecapibara"		revision="mist-os" />
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
     <remote name="tomoms"                  fetch="https://github.com/Tomoms"              revision="v" />
+    <remote name="zetlink"                  fetch="https://github.com/SM6225-Motorola"              revision="main" />
 
     <!-- Device trees -->
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="thecapibara" />
@@ -19,7 +20,7 @@
     <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
     
     <!-- Kernel source -->
-    <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="tomoms" 		revision="v" />
+    <project name="DanceKernel"	path="kernel/motorola/sm6225"	remote="zetlink"  />
 
     <!-- Hardware dependency -->
     <project name="android_hardware_motorola"	path="hardware/motorola"	remote="thecapibara" revision="lineage-22.2" />
