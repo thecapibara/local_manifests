@@ -4,15 +4,14 @@
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
     <remote name="thecapibara"		fetch="https://github.com/thecapibara"		revision="lineage-22.2" />
-    <remote name="josexda"                  fetch="https://github.com/josexda"              revision="Fifteen" />
     <remote name="zetlink"                  fetch="https://github.com/SM6225-Motorola"              revision="main" />
 
 
 
     <!-- Device trees -->
-    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="los" />
-    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="los" />
-    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="los" />
+    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="2by2" />
+    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="2by2" />
+    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="2by2" />
     <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="thecapibara" />
 
     <!-- Vendor trees -->
