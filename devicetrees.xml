@@ -11,7 +11,7 @@
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="thecapibara" revision="2by2" />
     <project name="android_device_motorola_hawao"       path="device/motorola/hawao"  remote="thecapibara"  revision="2by2" />
     <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="thecapibara" revision="2by2" />
-    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="thecapibara" />
+    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="thecapibara" revision="2by2" />
 
     <!-- Vendor trees -->
     <project name="proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="muppets" />
