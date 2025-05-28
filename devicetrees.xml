@@ -23,5 +23,5 @@
     <project name="DanceKernel"	path="kernel/motorola/sm6225"	remote="zetlink"  />
 
     <!-- Hardware dependency -->
-    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="thecapibara" revision="lineage-22.2" />
+    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="thecapibara" />
 </manifest>
