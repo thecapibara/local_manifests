@@ -2,13 +2,13 @@
 <manifest>
     <!-- Remote sources -->
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
-    <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
+    <remote name="thecapibara"                  fetch="https://github.com/thecapibara"              revision="infinityx" />
 
     <!-- Device trees -->
-    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="los" />
-    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="los" />
-    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="los" />
-    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="los" />
+    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="thecapibara" />
+    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="thecapibara" />
+    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="thecapibara" />
+    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="thecapibara" />
 
     <!-- Vendor trees -->
     <project name="proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="muppets" />
@@ -17,8 +17,8 @@
     <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
     
     <!-- Kernel source -->
-    <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="los" 		revision="lineage-22.2" />
+    <project name="AsterixKernel"	path="kernel/motorola/sm6225"	remote="thecapibara" 		revision="main" />
 
     <!-- Hardware dependency -->
-    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="los" />
+    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="thecapibara" revision="lineage-22.2"/>
 </manifest>
