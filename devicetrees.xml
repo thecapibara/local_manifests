@@ -2,7 +2,7 @@
 <manifest>
     <!-- Remote sources -->
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
-    <remote name="thecapibara"                  fetch="https://github.com/thecapibara"              revision="infinityx" />
+    <remote name="thecapibara"                  fetch="https://github.com/thecapibara"              revision="infinityx_vanilla" />
 
     <!-- Device trees -->
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="thecapibara" />
