@@ -4,9 +4,6 @@
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
     <remote name="thecapibara"		fetch="https://github.com/thecapibara"		revision="lineage-22.2" />
-    <remote name="josexda"                  fetch="https://github.com/josexda"              revision="Fifteen" />
-    <remote name="zetlink"                  fetch="https://github.com/SM6225-Motorola"              revision="main" />
-
 
 
     <!-- Device trees -->
@@ -22,7 +19,7 @@
     <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
     
     <!-- Kernel source -->
-    <project name="DanceKernel"	path="kernel/motorola/sm6225"	remote="zetlink"  />
+    <project name="AsterixKernel"	path="kernel/motorola/sm6225"	remote="thecapibara"  revision="main" />
 
     <!-- Hardware dependency -->
     <project name="android_hardware_motorola"	path="hardware/motorola"	remote="thecapibara" />
