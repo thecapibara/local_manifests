@@ -2,7 +2,6 @@
 <manifest>
     <!-- Remote sources -->
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
-    <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
     <remote name="thecapibara"		fetch="https://github.com/thecapibara"		revision="lineage-23.0" />
 
 
