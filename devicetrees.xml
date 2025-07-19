@@ -8,7 +8,7 @@
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="thecapibara" />
     <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="thecapibara" />
     <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="thecapibara" />
-    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="thecapibara" revision="infinityx_ril"/>
+    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="thecapibara" />
 
     <!-- Vendor trees -->
     <project name="proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="muppets" />
