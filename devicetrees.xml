@@ -6,7 +6,7 @@
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
 
     <!-- Device trees -->
-    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="thecapibara" />
+    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="thecapibara" revision="evo-16_vanilla"/>
     <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="thecapibara" />
     <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="thecapibara" />
     <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="thecapibara" />
