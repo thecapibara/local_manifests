@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remote sources -->
-    <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
-    <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
+    <remote name="manaus_rex"		fetch="https://github.com/Moto-MT6879-Dev"		revision="lineage-22.2" />
 
     <!-- Device trees -->
-    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="los" />
-    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="los" />
-    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="los" />
-    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="los" />
-
+    <project name="device_motorola_manaus"	path="device/motorola/manaus"	remote="manaus_rex" />
     <!-- Vendor trees -->
-    <project name="proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="muppets" />
-    <project name="proprietary_vendor_motorola_hawao"	path="vendor/motorola/hawao"	remote="muppets" />
-    <project name="proprietary_vendor_motorola_rhode"	path="vendor/motorola/rhode"	remote="muppets" />
-    <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
+    <project name="proprietary_vendor_motorola_manaus"	path="vendor/motorola/manaus"	remote="manaus_rex" />
     
     <!-- Kernel source -->
-    <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="los" 		revision="lineage-22.2" />
+    <project name="android_device_motorola_manaus-kernel"	path="device/motorola/manaus-kernel"	remote="manaus_rex" 		revision="lineage-22.2" />
 
     <!-- Hardware dependency -->
-    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="los" />
+    <project name="hardware_mediatek"	path="hardware/mediatek"	remote="manaus_rex" />
+    <project name="hardware_motorola"	path="hardware/motorola"	remote="manaus_rex" />
+
+    <!-- SEPolicy -->
+    <project name="device_mediatek_sepolicy_vndr"	path="device/mediatek/sepolicy_vndr"	remote="manaus_rex" />
 </manifest>
