@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remote sources -->
-    <remote name="muppets"      fetch="https://github.com/TheMuppets"             revision="lineage-24.0" />
-    <remote name="thecapibara"  fetch="https://github.com/thecapibara"            revision="lineage-24.0-5.15" />
-    <remote name="moto"         fetch="https://github.com/MotorolaMobilityLLC"    revision="refs/tags/MMI-U1TFS34.100-35-14-1-21" />
+    <remote name="muppets"      fetch="https://github.com/TheMuppets"       revision="lineage-24.0" />
+    <remote name="thecapibara"  fetch="https://github.com/thecapibara"      revision="lineage-24.0-5.15" />
 
     <!-- Device trees -->
     <project name="android_device_motorola_devon"         path="device/motorola/devon"          remote="thecapibara" />
@@ -22,14 +21,14 @@
     <project name="android_kernel_motorola_sm6225-devicetrees" path="kernel/motorola/sm6225-devicetrees" remote="thecapibara" revision="14-5.15" />
     <project name="android_kernel_motorola_sm6225-modules"     path="kernel/motorola/sm6225-modules"     remote="thecapibara" revision="14-5.15" />
 
-    <!-- QCOM 5.15 out-of-tree techpacks (fogona MMI-U1TFS34.100-35-14-1-21) -->
+    <!-- QCOM 5.15 out-of-tree techpacks (fogona MMI-U1TFS34.100-35-14-1-21, LineageOS Kbuild-clean) -->
     <project name="vendor-qcom-opensource-audio-kernel"     path="vendor/qcom/opensource/audio-kernel"      remote="thecapibara" revision="14-5.15" />
-    <project name="vendor-qcom-opensource-camera-kernel"    path="vendor/qcom/opensource/camera-kernel"     remote="moto" />
-    <project name="vendor-qcom-opensource-datarmnet"        path="vendor/qcom/opensource/datarmnet"         remote="moto" />
-    <project name="vendor-qcom-opensource-datarmnet-ext"    path="vendor/qcom/opensource/datarmnet-ext"     remote="moto" />
-    <project name="vendor-qcom-opensource-mmrm-driver"      path="vendor/qcom/opensource/mmrm-driver"       remote="moto" />
-    <project name="vendor-qcom-opensource-video-driver"     path="vendor/qcom/opensource/video-driver"      remote="moto" />
-    <project name="vendor-qcom-opensource-wlan-qcacld-3.0"  path="vendor/qcom/opensource/wlan/qcacld-3.0"   remote="moto" />
+    <project name="vendor-qcom-opensource-camera-kernel"    path="vendor/qcom/opensource/camera-kernel"     remote="thecapibara" revision="14-5.15" />
+    <project name="vendor-qcom-opensource-datarmnet"        path="vendor/qcom/opensource/datarmnet"         remote="thecapibara" revision="14-5.15" />
+    <project name="vendor-qcom-opensource-datarmnet-ext"    path="vendor/qcom/opensource/datarmnet-ext"     remote="thecapibara" revision="14-5.15" />
+    <project name="vendor-qcom-opensource-mmrm-driver"      path="vendor/qcom/opensource/mmrm-driver"       remote="thecapibara" revision="14-5.15" />
+    <project name="vendor-qcom-opensource-video-driver"     path="vendor/qcom/opensource/video-driver"      remote="thecapibara" revision="14-5.15" />
+    <project name="vendor-qcom-opensource-wlan-qcacld-3.0"  path="vendor/qcom/opensource/wlan/qcacld-3.0"   remote="thecapibara" revision="14-5.15" />
 
     <!-- Hardware dependency -->
     <project name="android_hardware_motorola" path="hardware/motorola" remote="thecapibara" revision="lineage-24.0" />
