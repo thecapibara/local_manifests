@@ -26,6 +26,8 @@
     <project name="vendor-qcom-opensource-camera-kernel"    path="vendor/qcom/opensource/camera-kernel"     remote="thecapibara" revision="14-5.15" />
     <project name="vendor-qcom-opensource-datarmnet"        path="vendor/qcom/opensource/datarmnet"         remote="thecapibara" revision="14-5.15" />
     <project name="vendor-qcom-opensource-datarmnet-ext"    path="vendor/qcom/opensource/datarmnet-ext"     remote="thecapibara" revision="14-5.15" />
+    <project name="vendor-qcom-opensource-display-drivers"  path="vendor/qcom/opensource/display-drivers"   remote="thecapibara" revision="14-5.15" />
+    <project name="vendor-qcom-opensource-graphics-kernel"  path="vendor/qcom/opensource/graphics-kernel"   remote="thecapibara" revision="14-5.15" />
     <project name="vendor-qcom-opensource-mmrm-driver"      path="vendor/qcom/opensource/mmrm-driver"       remote="thecapibara" revision="14-5.15" />
     <project name="vendor-qcom-opensource-video-driver"     path="vendor/qcom/opensource/video-driver"      remote="thecapibara" revision="14-5.15" />
     <project name="vendor-qcom-opensource-wlan-qcacld-3.0"  path="vendor/qcom/opensource/wlan/qcacld-3.0"   remote="thecapibara" revision="14-5.15" />
