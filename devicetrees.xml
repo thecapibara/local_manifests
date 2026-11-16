@@ -18,7 +18,9 @@
 
     <!-- Kernel 5.15 source, devicetrees, and modules -->
     <project name="android_kernel_motorola_sm6225-5.15"        path="kernel/motorola/sm6225"             remote="thecapibara" revision="14-5.15" />
-    <project name="android_kernel_motorola_sm6225-devicetrees" path="kernel/motorola/sm6225-devicetrees" remote="thecapibara" revision="14-5.15" />
+    <project name="android_kernel_motorola_sm6225-devicetrees" path="kernel/motorola/sm6225-devicetrees" remote="thecapibara" revision="14-5.15">
+        <linkfile src="." dest="kernel/motorola/sm6225/arch/arm64/boot/dts/vendor" />
+    </project>
     <project name="android_kernel_motorola_sm6225-modules"     path="kernel/motorola/sm6225-modules"     remote="thecapibara" revision="14-5.15" />
 
     <!-- QCOM 5.15 out-of-tree techpacks (fogona MMI-U1TFS34.100-35-14-1-21, LineageOS Kbuild-clean) -->
